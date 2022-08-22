@@ -4,7 +4,7 @@ head(tbl)
 
 str = tbl.TextData;
 documents = tokenizedDocument(str);
-documents(1:333)
+documents(1:96)
 compoundScores = vaderSentimentScores(documents);
 compoundScores(1:96)
 idx = compoundScores > 0;
